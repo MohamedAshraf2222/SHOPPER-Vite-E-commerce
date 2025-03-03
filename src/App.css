@@ -2,13 +2,17 @@
 
 #root {
   width: 100%;
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 0 2rem; */
   text-align: center;
 }
 
 p,ul{
   padding: 0;
   margin: 0;
+}
+
+.shops-bg{
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }

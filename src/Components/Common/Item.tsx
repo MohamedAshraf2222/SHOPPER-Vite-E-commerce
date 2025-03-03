@@ -1,5 +1,4 @@
 const Item = ({ product }: any) => {
-  console.log(product);
 
   return (
     <div className="w-[280px] hover:scale-[1.05] hover:transition-all hover:duration-[600ms] cursor-pointer">
