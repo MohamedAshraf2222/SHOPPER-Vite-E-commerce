@@ -74,7 +74,6 @@ const Shop = () => {
           <hr className="w-[200px] h-1.5 rounded-xl bg-[#252525]" />
           <div className="flex mt-[50px] gap-8 flex-wrap justify-center">
             {new_collections.map((product: any) => {
-              console.log(product.name);
               return <Item product={product} />;
             })}
           </div>

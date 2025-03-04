@@ -1,7 +1,16 @@
 import logo from "../../Assets/logo.png";
 import cart from "../../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../../Context/CartContext";
 const Nav = () => {
+  const { cartItems,getTotalCartItems } = useContext(CartContext);
+
+  const filteredCartItems = Object.values(cartItems).filter((item:any)=>{
+    return item >0
+  })
+
+
   return (
     <nav className="flex justify-around w-full p-3 shadow top-0 left-0 absolute">
       <div className="flex items-center cursor-pointer">
@@ -33,7 +42,7 @@ const Nav = () => {
         <Link to={"/cart"} className="relative">
           <img className="cursor-pointer" src={cart} alt="Cart" />
           <div className="bg-red-600 text-white text-xs rounded-2xl flex justify-center items-center absolute w-[22px] h-[22px] -top-1.5 -right-2.5">
-            0
+            {getTotalCartItems()}
           </div>
         </Link>
       </div>

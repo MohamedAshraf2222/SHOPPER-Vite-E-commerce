@@ -35,7 +35,7 @@ import p34_img from "./product_34.png";
 import p35_img from "./product_35.png";
 import p36_img from "./product_36.png";
 
-export let all_product:any = [
+export let all_product: any = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
@@ -43,6 +43,9 @@ export let all_product:any = [
     image: p1_img,
     new_price: 50.0,
     old_price: 80.5,
+    description:
+      "Elegant blouse with flutter sleeves, overlap collar, and peplum hem. Perfect for casual outings or office wear.",
+    type: "Blouse",
   },
   {
     id: 2,
@@ -51,6 +54,9 @@ export let all_product:any = [
     image: p2_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Stylish striped blouse featuring flutter sleeves and a peplum hem. Ideal for a chic, modern look.",
+    type: "Blouse",
   },
   {
     id: 3,
@@ -59,6 +65,9 @@ export let all_product:any = [
     image: p3_img,
     new_price: 60.0,
     old_price: 100.5,
+    description:
+      "Lightweight and comfortable blouse with a trendy peplum hem and flutter sleeves.",
+    type: "Blouse",
   },
   {
     id: 4,
@@ -67,6 +76,9 @@ export let all_product:any = [
     image: p4_img,
     new_price: 100.0,
     old_price: 150.0,
+    description:
+      "Sophisticated blouse with a flattering peplum hem and elegant overlap collar.",
+    type: "Blouse",
   },
   {
     id: 5,
@@ -75,6 +87,9 @@ export let all_product:any = [
     image: p5_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Versatile blouse with a stylish peplum hem and flutter sleeves for a feminine touch.",
+    type: "Blouse",
   },
   {
     id: 6,
@@ -83,6 +98,9 @@ export let all_product:any = [
     image: p6_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Chic blouse with a flattering peplum hem and trendy flutter sleeves.",
+    type: "Blouse",
   },
   {
     id: 7,
@@ -91,6 +109,9 @@ export let all_product:any = [
     image: p7_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Elegant and comfortable blouse with a peplum hem and flutter sleeves.",
+    type: "Blouse",
   },
   {
     id: 8,
@@ -99,6 +120,9 @@ export let all_product:any = [
     image: p8_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Modern blouse with a stylish peplum hem and flutter sleeves for a polished look.",
+    type: "Blouse",
   },
   {
     id: 9,
@@ -107,6 +131,9 @@ export let all_product:any = [
     image: p9_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Trendy blouse with a flattering peplum hem and elegant flutter sleeves.",
+    type: "Blouse",
   },
   {
     id: 10,
@@ -115,6 +142,9 @@ export let all_product:any = [
     image: p10_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Feminine blouse with a stylish peplum hem and flutter sleeves for a chic look.",
+    type: "Blouse",
   },
   {
     id: 11,
@@ -123,6 +153,9 @@ export let all_product:any = [
     image: p11_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Elegant blouse with a trendy peplum hem and flutter sleeves for a modern look.",
+    type: "Blouse",
   },
   {
     id: 12,
@@ -131,6 +164,9 @@ export let all_product:any = [
     image: p12_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Chic and comfortable blouse with a flattering peplum hem and flutter sleeves.",
+    type: "Blouse",
   },
   {
     id: 13,
@@ -139,6 +175,9 @@ export let all_product:any = [
     image: p13_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Sleek and stylish bomber jacket with a full-zip design and slim fit. Perfect for casual outings.",
+    type: "Jacket",
   },
   {
     id: 14,
@@ -147,6 +186,9 @@ export let all_product:any = [
     image: p14_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Modern bomber jacket with a slim fit and full-zip design. Ideal for a trendy look.",
+    type: "Jacket",
   },
   {
     id: 15,
@@ -155,6 +197,9 @@ export let all_product:any = [
     image: p15_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Classic bomber jacket with a slim fit and full-zip design. Great for everyday wear.",
+    type: "Jacket",
   },
   {
     id: 16,
@@ -163,6 +208,9 @@ export let all_product:any = [
     image: p16_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Stylish bomber jacket with a slim fit and full-zip design. Perfect for a casual look.",
+    type: "Jacket",
   },
   {
     id: 17,
@@ -171,6 +219,9 @@ export let all_product:any = [
     image: p17_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Trendy bomber jacket with a slim fit and full-zip design. Ideal for modern styling.",
+    type: "Jacket",
   },
   {
     id: 18,
@@ -179,6 +230,9 @@ export let all_product:any = [
     image: p18_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Sleek bomber jacket with a slim fit and full-zip design. Great for casual occasions.",
+    type: "Jacket",
   },
   {
     id: 19,
@@ -187,6 +241,9 @@ export let all_product:any = [
     image: p19_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Modern bomber jacket with a slim fit and full-zip design. Perfect for a stylish look.",
+    type: "Jacket",
   },
   {
     id: 20,
@@ -195,6 +252,9 @@ export let all_product:any = [
     image: p20_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Classic bomber jacket with a slim fit and full-zip design. Ideal for casual wear.",
+    type: "Jacket",
   },
   {
     id: 21,
@@ -203,6 +263,9 @@ export let all_product:any = [
     image: p21_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Stylish bomber jacket with a slim fit and full-zip design. Perfect for modern styling.",
+    type: "Jacket",
   },
   {
     id: 22,
@@ -211,6 +274,9 @@ export let all_product:any = [
     image: p22_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Trendy bomber jacket with a slim fit and full-zip design. Great for casual outings.",
+    type: "Jacket",
   },
   {
     id: 23,
@@ -219,6 +285,9 @@ export let all_product:any = [
     image: p23_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Sleek bomber jacket with a slim fit and full-zip design. Ideal for a modern look.",
+    type: "Jacket",
   },
   {
     id: 24,
@@ -227,6 +296,9 @@ export let all_product:any = [
     image: p24_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Classic bomber jacket with a slim fit and full-zip design. Perfect for casual styling.",
+    type: "Jacket",
   },
   {
     id: 25,
@@ -235,6 +307,9 @@ export let all_product:any = [
     image: p25_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Fun and vibrant hooded sweatshirt with colourblocked design. Perfect for kids' casual wear.",
+    type: "Sweatshirt",
   },
   {
     id: 26,
@@ -243,6 +318,9 @@ export let all_product:any = [
     image: p26_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Comfortable and stylish hooded sweatshirt with a colourblocked design. Ideal for kids.",
+    type: "Sweatshirt",
   },
   {
     id: 27,
@@ -251,6 +329,9 @@ export let all_product:any = [
     image: p27_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Trendy hooded sweatshirt with a vibrant colourblocked design. Great for kids' casual outfits.",
+    type: "Sweatshirt",
   },
   {
     id: 28,
@@ -259,6 +340,9 @@ export let all_product:any = [
     image: p28_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Fun and comfortable hooded sweatshirt with a colourblocked design. Perfect for kids.",
+    type: "Sweatshirt",
   },
   {
     id: 29,
@@ -267,6 +351,9 @@ export let all_product:any = [
     image: p29_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Vibrant hooded sweatshirt with a colourblocked design. Ideal for kids' casual wear.",
+    type: "Sweatshirt",
   },
   {
     id: 30,
@@ -275,6 +362,9 @@ export let all_product:any = [
     image: p30_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Stylish hooded sweatshirt with a colourblocked design. Perfect for kids' casual outfits.",
+    type: "Sweatshirt",
   },
   {
     id: 31,
@@ -283,6 +373,9 @@ export let all_product:any = [
     image: p31_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Comfortable and trendy hooded sweatshirt with a colourblocked design. Great for kids.",
+    type: "Sweatshirt",
   },
   {
     id: 32,
@@ -291,6 +384,9 @@ export let all_product:any = [
     image: p32_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Fun and vibrant hooded sweatshirt with a colourblocked design. Ideal for kids' casual wear.",
+    type: "Sweatshirt",
   },
   {
     id: 33,
@@ -299,6 +395,9 @@ export let all_product:any = [
     image: p33_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Stylish hooded sweatshirt with a colourblocked design. Perfect for kids' casual outfits.",
+    type: "Sweatshirt",
   },
   {
     id: 34,
@@ -307,6 +406,9 @@ export let all_product:any = [
     image: p34_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Comfortable and trendy hooded sweatshirt with a colourblocked design. Great for kids.",
+    type: "Sweatshirt",
   },
   {
     id: 35,
@@ -315,6 +417,9 @@ export let all_product:any = [
     image: p35_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Fun and vibrant hooded sweatshirt with a colourblocked design. Ideal for kids' casual wear.",
+    type: "Sweatshirt",
   },
   {
     id: 36,
@@ -323,6 +428,9 @@ export let all_product:any = [
     image: p36_img,
     new_price: 85.0,
     old_price: 120.5,
+    description:
+      "Stylish hooded sweatshirt with a colourblocked design. Perfect for kids' casual outfits.",
+    type: "Sweatshirt",
   },
 ];
 
