@@ -1,4 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Register = () => {
+      const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
   return (
     <div className="w-full bg-[#fce3fe] mt-[89px] py-20">
       <div className="w-[580px] h-full bg-white m-auto py-10 px-[60px]">
@@ -27,9 +32,11 @@ const Register = () => {
         </button>
         <p className="text-[#5c5c5c] text-lg font-medium">
           Already have an account?{" "}
-          <span className="font-semibold text-[#ff4141] cursor-pointer">
-            Login here
-          </span>
+          <Link onClick={scrollToTop} to={"/login"}>
+            <span className="font-semibold text-[#ff4141] cursor-pointer">
+              Login here
+            </span>
+          </Link>
         </p>
         <div className="flex items-center justify-center cursor-pointer gap-2 mt-5 text-[#c9c9c9] text-sm font-medium">
           <input type="checkbox" name="check" id="check" />

@@ -4,11 +4,8 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../../Context/CartContext";
 const Nav = () => {
-  const { cartItems,getTotalCartItems } = useContext(CartContext);
+  const { getTotalCartItems } = useContext(CartContext);
 
-  const filteredCartItems = Object.values(cartItems).filter((item:any)=>{
-    return item >0
-  })
 
 
   return (
